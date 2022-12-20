@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SiteHeaderComponent } from './site-header/site-header.component';
+import { AppComponent } from './app.component';
+import { SiteFooterComponent } from './site-footer/site-footer.component';
 
 const routes: Routes = [
-  { path:'',component: SiteHeaderComponent},
+  { path:'',component: AppComponent},
+  {path:'footer',component:SiteFooterComponent}
 ];
 
 @NgModule({
