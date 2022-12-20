@@ -1,0 +1,20 @@
+mat-toolbar{
+    height:auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+ul{
+ margin: 0;
+}
+.infor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    padding: 15px;
+}
+img:hover{
+    cursor: pointer;
+}
