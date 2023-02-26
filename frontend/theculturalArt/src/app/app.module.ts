@@ -5,6 +5,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SiteHeaderComponent } from './site-header/site-header.component';
+import { SiteFooterComponent } from './site-footer/site-footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { SiteHeaderComponent } from './site-header/site-header.component';
     AppRoutingModule,
     MatToolbarModule,
     RouterModule.forRoot([
-      
+
     ])
   ],
   providers: [],
