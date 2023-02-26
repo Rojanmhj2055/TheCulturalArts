@@ -1,14 +1,16 @@
 mat-toolbar{
     height:auto;
     width: 100%;
-    background-color: black;
+    background-color: var(--color);
+    display: flex;
+    justify-content: center;
     color: white;
 }
 ul{
  margin: 0;
 }
 .infor{
-    width: 100%;
+   
     display: flex;
     justify-content: space-between;
 }
@@ -18,3 +20,19 @@ div{
 img:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 930px) {
+
+   
+  .mat-toolbar{
+    flex-direction: column;
+    justify-content: center;
+  }
+  }
+
+  @media screen and (max-width:661px){
+     .infor{
+    flex-direction: column;
+    justify-content: center;
+   } 
+  }
