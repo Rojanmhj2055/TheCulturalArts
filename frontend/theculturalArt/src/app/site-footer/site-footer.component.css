@@ -4,13 +4,14 @@ mat-toolbar{
     background-color: var(--color);
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
+    border: 2px black;
 }
 ul{
  margin: 0;
 }
 .infor{
-   
+
     display: flex;
     justify-content: space-between;
 }
@@ -23,7 +24,7 @@ img:hover{
 
 @media screen and (max-width: 930px) {
 
-   
+
   .mat-toolbar{
     flex-direction: column;
     justify-content: center;
@@ -34,5 +35,5 @@ img:hover{
      .infor{
     flex-direction: column;
     justify-content: center;
-   } 
+   }
   }

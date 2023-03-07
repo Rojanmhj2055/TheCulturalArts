@@ -11,7 +11,7 @@ export class SiteFooterComponent implements OnInit {
   ph_number: String;
   email: String;
   constructor() {
-    this.color = "#252525";
+    this.color = "white";
     this.ph_number="+977-982000220";
     this.email = "sanu@gmail.com";
    }

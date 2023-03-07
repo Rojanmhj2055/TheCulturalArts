@@ -1,6 +1,14 @@
+.mat-toolbar{
+  background-color:white;
+}
 .flexExpand {
     flex: 1 1 auto;
   }
   .flexSpaceBetween {
     justify-content: space-between;
+  }
+
+  img{
+    height: 90%;
+    margin-right: 4px;
   }
